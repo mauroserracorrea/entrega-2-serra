@@ -1,0 +1,176 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ P {
+     display: inline-block;
+     margin-top: 150px;
+     margin-left: 500px;
+     font-family: 'Times New Roman', Times, serif
+ }
+
+ .body {
+     background-color: aliceblue;
+ }
+
+ .titulo {
+     margin-left: 700px;
+ }
+
+ .header {
+     background-color: rgba(9, 138, 237, 0.904);
+     width: 100%;
+     display: flex;
+     position: fixed;
+     z-index: 100;
+     font-family: 'Times New Roman', Times, serif;
+     height: 10%;
+ }
+
+ nav ul li {
+     float: left;
+     font-size: 20px;
+ }
+
+ nav ul li a {
+     display: flex;
+     padding: 20px;
+     text-decoration: none;
+ }
+
+ nav ul li:hover {
+     background-color: #4df11b;
+     border-radius: 10%;
+     padding: auto;
+     box-shadow: 0 0 10px;
+ }
+
+
+ footer {
+     background-color: #595e4e;
+     text-align: center;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     margin-bottom: 0%;
+ }
+
+ .carousel {
+     width: 75%;
+     margin: auto;
+     height: 60%;
+     padding-top: 90px;
+ }
+
+ .tarjetas {
+     display: flex;
+     position: relative;
+     margin-top: 20px;
+     height: auto;
+     width: 90%;
+     padding: 20px;
+     padding-left: 160px;
+ }
+
+ header h1 a {
+     list-style-type: none;
+     overflow: hidden;
+     text-decoration: none;
+     color: #e9ebdf;
+ }
+
+ .tarjeta-imagen {
+     width: 10%;
+     height: fit-content;
+ }
+
+
+ .logo {
+     width: 15%;
+     height: 15%;
+ }
+
+ .section {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 10px;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .aside,
+ .mapa {
+     padding: 10px;
+ }
+
+ h4,
+ p {
+     margin: 0;
+ }
+
+ .mapa {
+     display: flex;
+     flex-direction: column;
+     padding-top: 300px;
+     padding-left: 50px;
+ }
+
+ .aside {
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+     padding-left: 100px;
+ }
+
+ h4 {
+     padding-top: 20px;
+     color: #006084;
+ }
+
+ strong {
+     padding-top: 20px;
+ }
+
+ img {
+     width: 600px;
+     height: 350px;
+ }
+
+ .whatsapp {
+     position: fixed;
+     bottom: 40px;
+     right: 60px;
+     z-index: 1000;
+ }
+
+ .fab.fa-whatsapp {
+     font-size: 70px;
+     color: green;
+ }
+
+ @media (max-width: 900px) {
+     .section {
+         display: flex;
+         flex-direction: column;
+     }
+ }
+
+
+ @media (max-width: 900px) {
+     .section .mapa {
+         padding-top: 0%;
+         padding-left: 100px;
+     }
+ }
+
+ @media (max-width: 900px) {
+     img {
+         padding-top: 0%;
+         padding-left: 100px;
+     }
+ }
