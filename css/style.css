@@ -137,6 +137,60 @@
      box-shadow: 0 0 10px;
  }
 
+ .texto {
+     display: flex;
+     padding-top: 60px;
+     padding-left: 120px;
+     z-index: 144;
+     width: 626px;
+     min-height: auto;
+     font-size: 15px;
+     line-height: 25px;
+     left: 287px;
+ }
+
+ .fondo-3 {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
+ }
+
+ .curso {
+     padding-top: 135px;
+     padding-left: 150px;
+ }
+
+ .cusroparac {
+     width: fit-content;
+     height: fit-content;
+     padding-top: 10px;
+     padding-left: 800px;
+ }
+
+ .multimedia {
+     display: flex;
+     width: 95%;
+     height: 900px;
+     padding-top: 250px;
+     padding-left: 95px;
+ }
+
+ .multimedia img {
+     width: 0px;
+     flex-grow: 1;
+     object-fit: cover;
+     opacity: .8;
+     transition: .5 ease;
+ }
+
+ .multimedia img:hover {
+     cursor: crosshair;
+     width: 400px;
+     opacity: 1;
+     filter: contrast(120%);
+ }
+
+ .fondo1 {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
+ }
 
 
  @media (max-width: 900px) {
