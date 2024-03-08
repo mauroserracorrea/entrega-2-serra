@@ -12,6 +12,7 @@
 
 
  .titulo {
+     padding-top: 80px;
      margin-left: 700px;
  }
 
@@ -26,7 +27,7 @@
      margin-bottom: 0%;
  }
 
- .carousel {
+ #carouselExample {
      width: 75%;
      margin: auto;
      height: 60%;
@@ -187,6 +188,10 @@
 
  .fondo1 {
      background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
+ }
+
+ .bodyvideos {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
  }
 
 
