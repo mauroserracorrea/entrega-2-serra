@@ -10,9 +10,6 @@
      font-family: 'Times New Roman', Times, serif
  }
 
- .body {
-     background-color: aliceblue;
- }
 
  .titulo {
      margin-left: 700px;
@@ -191,6 +188,7 @@
  .fondo1 {
      background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
  }
+
 
 
  @media (max-width: 900px) {
