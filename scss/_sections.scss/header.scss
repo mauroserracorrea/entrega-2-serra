@@ -1,0 +1,18 @@
+ header h1 a {
+     list-style-type: none;
+     overflow: hidden;
+     text-decoration: none;
+     color: #e9ebdf;
+ }
+
+ .navbar-brand,
+ .navbar-nav .nav-link {
+     font-family: Arial, 'Times New Roman', Times, serif;
+     font-size: 18px;
+ }
+
+ .navbar-nav .nav-link:hover {
+     background-color: #4df11b;
+     border-radius: 10%;
+     box-shadow: 0 0 10px;
+ }

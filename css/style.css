@@ -1,219 +1,177 @@
- * {
-     margin: 0;
-     padding: 0;
- }
+* {
+  margin: 0;
+  padding: 0; }
 
- P {
-     display: inline-block;
-     margin-top: 150px;
-     margin-left: 500px;
-     font-family: 'Times New Roman', Times, serif
- }
+header h1 a {
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  color: #e9ebdf; }
 
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: Arial, 'Times New Roman', Times, serif;
+  font-size: 18px; }
 
- .titulo {
-     padding-top: 80px;
-     margin-left: 700px;
- }
+.navbar-nav .nav-link:hover {
+  background-color: #4df11b;
+  border-radius: 10%;
+  box-shadow: 0 0 10px; }
 
+P {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 500px;
+  font-family: 'Times New Roman', Times, serif; }
 
- footer {
-     background-color: #595e4e;
-     text-align: center;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     height: 100%;
-     margin-bottom: 0%;
- }
+.titulo {
+  padding-top: 80px;
+  margin-left: 700px; }
 
- #carouselExample {
-     width: 75%;
-     margin: auto;
-     height: 60%;
-     padding-top: 90px;
- }
+#carouselExample {
+  width: 75%;
+  margin: auto;
+  height: 60%;
+  padding-top: 90px; }
 
- .tarjetas {
-     display: flex;
-     position: relative;
-     margin-top: 20px;
-     height: auto;
-     width: 90%;
-     padding: 20px;
-     padding-left: 160px;
- }
+.tarjetas {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  height: auto;
+  width: 90%;
+  padding: 20px;
+  padding-left: 160px; }
 
- header h1 a {
-     list-style-type: none;
-     overflow: hidden;
-     text-decoration: none;
-     color: #e9ebdf;
- }
+.tarjeta-imagen {
+  width: 10%;
+  height: fit-content; }
 
- .tarjeta-imagen {
-     width: 10%;
-     height: fit-content;
- }
+.logo {
+  width: 150px;
+  object-fit: contain; }
 
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
- .logo {
-     width: 150px;
-     object-fit: contain;
- }
+.aside,
+.mapa {
+  padding: 10px; }
 
- .section {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 10px;
-     width: 100%;
-     height: 100%;
-     margin: 0;
-     padding: 0;
-     font-family: Arial, Helvetica, sans-serif;
- }
+h4,
+p {
+  margin: 0; }
 
- .aside,
- .mapa {
-     padding: 10px;
- }
+.mapa {
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+  padding-left: 50px; }
 
- h4,
- p {
-     margin: 0;
- }
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 100px; }
 
- .mapa {
-     display: flex;
-     flex-direction: column;
-     padding-top: 300px;
-     padding-left: 50px;
- }
+h4 {
+  padding-top: 20px;
+  color: #006084; }
 
- .aside {
-     display: flex;
-     flex-direction: column;
-     padding-top: 50px;
-     padding-left: 100px;
- }
+strong {
+  padding-top: 20px; }
 
- h4 {
-     padding-top: 20px;
-     color: #006084;
- }
+img {
+  width: 600px;
+  height: 350px; }
 
- strong {
-     padding-top: 20px;
- }
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  z-index: 100; }
 
- img {
-     width: 600px;
-     height: 350px;
- }
+.fab.fa-whatsapp {
+  font-size: 70px;
+  color: green; }
 
- .whatsapp {
-     position: fixed;
-     bottom: 40px;
-     right: 60px;
-     z-index: 100;
- }
+.texto {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 120px;
+  z-index: 144;
+  width: 626px;
+  min-height: auto;
+  font-size: 15px;
+  line-height: 25px;
+  left: 287px; }
 
- .fab.fa-whatsapp {
-     font-size: 70px;
-     color: green;
- }
+.fondo-3 {
+  background: linear-gradient(to right, #008cff, #c0fff6); }
 
- .navbar-brand,
- .navbar-nav .nav-link {
-     font-family: Arial, 'Times New Roman', Times, serif;
-     font-size: 18px;
- }
+.curso {
+  padding-top: 135px;
+  padding-left: 150px; }
 
- .navbar-nav .nav-link:hover {
-     background-color: #4df11b;
-     border-radius: 10%;
-     box-shadow: 0 0 10px;
- }
+.cusroparac {
+  width: fit-content;
+  height: fit-content;
+  padding-top: 10px;
+  padding-left: 800px; }
 
- .texto {
-     display: flex;
-     padding-top: 60px;
-     padding-left: 120px;
-     z-index: 144;
-     width: 626px;
-     min-height: auto;
-     font-size: 15px;
-     line-height: 25px;
-     left: 287px;
- }
+.multimedia {
+  display: flex;
+  width: 95%;
+  height: 900px;
+  padding-top: 250px;
+  padding-left: 95px; }
 
- .fondo-3 {
-     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
- }
+.multimedia img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5 ease; }
 
- .curso {
-     padding-top: 135px;
-     padding-left: 150px;
- }
+.multimedia img:hover {
+  cursor: crosshair;
+  width: 400px;
+  opacity: 1;
+  filter: contrast(120%); }
 
- .cusroparac {
-     width: fit-content;
-     height: fit-content;
-     padding-top: 10px;
-     padding-left: 800px;
- }
+.fondo1 {
+  background: linear-gradient(to right, #008cff, #da6fc7); }
 
- .multimedia {
-     display: flex;
-     width: 95%;
-     height: 900px;
-     padding-top: 250px;
-     padding-left: 95px;
- }
+.bodyvideos {
+  background: linear-gradient(to right, #008cff, #c0fff6); }
 
- .multimedia img {
-     width: 0px;
-     flex-grow: 1;
-     object-fit: cover;
-     opacity: .8;
-     transition: .5 ease;
- }
+@media (max-width: 900px) {
+  .section {
+    display: flex;
+    flex-direction: column; } }
 
- .multimedia img:hover {
-     cursor: crosshair;
-     width: 400px;
-     opacity: 1;
-     filter: contrast(120%);
- }
+@media (max-width: 900px) {
+  .section .mapa {
+    padding-top: 0%;
+    padding-left: 100px; } }
 
- .fondo1 {
-     background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
- }
+@media (max-width: 900px) {
+  img {
+    padding-top: 0%;
+    padding-left: 100px; } }
 
- .bodyvideos {
-     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
- }
-
-
-
- @media (max-width: 900px) {
-     .section {
-         display: flex;
-         flex-direction: column;
-     }
- }
-
-
- @media (max-width: 900px) {
-     .section .mapa {
-         padding-top: 0%;
-         padding-left: 100px;
-     }
- }
-
- @media (max-width: 900px) {
-     img {
-         padding-top: 0%;
-         padding-left: 100px;
-     }
- }
+footer {
+  background-color: #595e4e;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0%; }

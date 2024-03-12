@@ -1,0 +1,187 @@
+ P {
+     display: inline-block;
+     margin-top: 150px;
+     margin-left: 500px;
+     font-family: 'Times New Roman', Times, serif
+ }
+
+
+ .titulo {
+     padding-top: 80px;
+     margin-left: 700px;
+ }
+
+ #carouselExample {
+     width: 75%;
+     margin: auto;
+     height: 60%;
+     padding-top: 90px;
+ }
+
+ .tarjetas {
+     display: flex;
+     position: relative;
+     margin-top: 20px;
+     height: auto;
+     width: 90%;
+     padding: 20px;
+     padding-left: 160px;
+ }
+
+
+
+ .tarjeta-imagen {
+     width: 10%;
+     height: fit-content;
+ }
+
+
+ .logo {
+     width: 150px;
+     object-fit: contain;
+ }
+
+ .section {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 10px;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .aside,
+ .mapa {
+     padding: 10px;
+ }
+
+ h4,
+ p {
+     margin: 0;
+ }
+
+ .mapa {
+     display: flex;
+     flex-direction: column;
+     padding-top: 300px;
+     padding-left: 50px;
+ }
+
+ .aside {
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+     padding-left: 100px;
+ }
+
+ h4 {
+     padding-top: 20px;
+     color: #006084;
+ }
+
+ strong {
+     padding-top: 20px;
+ }
+
+ img {
+     width: 600px;
+     height: 350px;
+ }
+
+ .whatsapp {
+     position: fixed;
+     bottom: 40px;
+     right: 60px;
+     z-index: 100;
+ }
+
+ .fab.fa-whatsapp {
+     font-size: 70px;
+     color: green;
+ }
+
+
+ .texto {
+     display: flex;
+     padding-top: 60px;
+     padding-left: 120px;
+     z-index: 144;
+     width: 626px;
+     min-height: auto;
+     font-size: 15px;
+     line-height: 25px;
+     left: 287px;
+ }
+
+ .fondo-3 {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
+ }
+
+ .curso {
+     padding-top: 135px;
+     padding-left: 150px;
+ }
+
+ .cusroparac {
+     width: fit-content;
+     height: fit-content;
+     padding-top: 10px;
+     padding-left: 800px;
+ }
+
+ .multimedia {
+     display: flex;
+     width: 95%;
+     height: 900px;
+     padding-top: 250px;
+     padding-left: 95px;
+ }
+
+ .multimedia img {
+     width: 0px;
+     flex-grow: 1;
+     object-fit: cover;
+     opacity: .8;
+     transition: .5 ease;
+ }
+
+ .multimedia img:hover {
+     cursor: crosshair;
+     width: 400px;
+     opacity: 1;
+     filter: contrast(120%);
+ }
+
+ .fondo1 {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
+ }
+
+ .bodyvideos {
+     background: linear-gradient(to right, rgb(0, 140, 255), rgb(192, 255, 246))
+ }
+
+
+
+ @media (max-width: 900px) {
+     .section {
+         display: flex;
+         flex-direction: column;
+     }
+ }
+
+
+ @media (max-width: 900px) {
+     .section .mapa {
+         padding-top: 0%;
+         padding-left: 100px;
+     }
+ }
+
+ @media (max-width: 900px) {
+     img {
+         padding-top: 0%;
+         padding-left: 100px;
+     }
+ }
