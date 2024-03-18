@@ -1,0 +1,87 @@
+.contenedor {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.imagen {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.opacidad-oscura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    color: white;
+    text-align: start;
+    z-index: 1;
+}
+
+
+.boton {
+    position: relative;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4343eb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    top: 40px;
+}
+
+
+
+.logo {
+    width: 150px;
+    object-fit: contain;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    z-index: 100;
+}
+
+.fab.fa-whatsapp {
+    font-size: 70px;
+    color: green;
+}
+
+#carouselExample {
+    width: 75%;
+    margin: auto;
+    height: 60%;
+    padding-top: 90px;
+}
+
+.tarjetas {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+    padding: 20px;
+    padding-left: 160px;
+}
+
+
+
+.tarjeta-imagen {
+    width: 10%;
+    height: fit-content;
+}

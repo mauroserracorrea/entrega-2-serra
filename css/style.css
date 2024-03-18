@@ -18,15 +18,85 @@ header h1 a {
   border-radius: 10%;
   box-shadow: 0 0 10px; }
 
-P {
-  display: inline-block;
-  margin-top: 150px;
-  margin-left: 500px;
-  font-family: 'Times New Roman', Times, serif; }
+footer {
+  background-color: #595e4e;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0%; }
 
 .titulo {
   padding-top: 80px;
   margin-left: 700px; }
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-top: 30px; }
+
+.titulo {
+  padding-top: 80px;
+  margin-left: 700px; }
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  display: inline-block; }
+
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.opacidad-oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.texto-superpuesto {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  transform: translate(-50%, 50%);
+  color: white;
+  text-align: start;
+  z-index: 1; }
+
+.boton {
+  position: relative;
+  bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4343eb;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  top: 40px; }
+
+.logo {
+  width: 150px;
+  object-fit: contain; }
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  z-index: 100; }
+
+.fab.fa-whatsapp {
+  font-size: 70px;
+  color: green; }
 
 #carouselExample {
   width: 75%;
@@ -47,9 +117,11 @@ P {
   width: 10%;
   height: fit-content; }
 
-.logo {
-  width: 150px;
-  object-fit: contain; }
+P {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 500px;
+  font-family: 'Times New Roman', Times, serif; }
 
 .section {
   display: grid;
@@ -92,26 +164,20 @@ img {
   width: 600px;
   height: 350px; }
 
-.whatsapp {
-  position: fixed;
-  bottom: 40px;
-  right: 60px;
-  z-index: 100; }
+@media (max-width: 900px) {
+  .section {
+    display: flex;
+    flex-direction: column; } }
 
-.fab.fa-whatsapp {
-  font-size: 70px;
-  color: green; }
+@media (max-width: 900px) {
+  .section .mapa {
+    padding-top: 0%;
+    padding-left: 100px; } }
 
-.texto {
-  display: flex;
-  padding-top: 60px;
-  padding-left: 120px;
-  z-index: 144;
-  width: 626px;
-  min-height: auto;
-  font-size: 15px;
-  line-height: 25px;
-  left: 287px; }
+@media (max-width: 900px) {
+  img {
+    padding-top: 0%;
+    padding-left: 100px; } }
 
 .fondo-3 {
   background: linear-gradient(to right, #008cff, #c0fff6); }
@@ -125,6 +191,20 @@ img {
   height: fit-content;
   padding-top: 10px;
   padding-left: 800px; }
+
+.texto {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 120px;
+  z-index: 144;
+  width: 626px;
+  min-height: auto;
+  font-size: 15px;
+  line-height: 25px;
+  left: 287px; }
+
+.fondo1 {
+  background: linear-gradient(to right, #008cff, #da6fc7); }
 
 .multimedia {
   display: flex;
@@ -145,33 +225,3 @@ img {
   width: 400px;
   opacity: 1;
   filter: contrast(120%); }
-
-.fondo1 {
-  background: linear-gradient(to right, #008cff, #da6fc7); }
-
-.bodyvideos {
-  background: linear-gradient(to right, #008cff, #c0fff6); }
-
-@media (max-width: 900px) {
-  .section {
-    display: flex;
-    flex-direction: column; } }
-
-@media (max-width: 900px) {
-  .section .mapa {
-    padding-top: 0%;
-    padding-left: 100px; } }
-
-@media (max-width: 900px) {
-  img {
-    padding-top: 0%;
-    padding-left: 100px; } }
-
-footer {
-  background-color: #595e4e;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0%; }

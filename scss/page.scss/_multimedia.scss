@@ -1,0 +1,26 @@
+.fondo1 {
+    background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
+}
+
+.multimedia {
+    display: flex;
+    width: 95%;
+    height: 900px;
+    padding-top: 250px;
+    padding-left: 95px;
+}
+
+.multimedia img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+.multimedia img:hover {
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
