@@ -86,7 +86,7 @@ footer {
 
 .logo {
   width: 150px;
-  object-fit: contain; }
+  height: 45px; }
 
 .whatsapp {
   position: fixed;
