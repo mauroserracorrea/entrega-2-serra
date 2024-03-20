@@ -34,16 +34,13 @@
     position: relative;
     bottom: 20px;
     padding: 10px 20px;
-    background-color: #4343eb;
-    color: #000;
-    border: none;
+    background-color: #4365eb;
+    color: white;
     border-radius: 5px;
     cursor: pointer;
     z-index: 1;
     top: 40px;
 }
-
-
 
 .logo {
     width: 150px;
@@ -86,6 +83,11 @@
     height: fit-content;
 }
 
-// .fondoindex {
-//     background-color: white;
-// }
+.servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #007bff, #98e9fb);
+    height: 60px;
+    color: #36333b;
+}
