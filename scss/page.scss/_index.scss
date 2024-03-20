@@ -47,24 +47,22 @@
     height: 45px;
 }
 
-.whatsapp {
+.whatsapp-icono {
     position: fixed;
-    bottom: 40px;
+    bottom: 60px;
     right: 60px;
     z-index: 100;
+    width: 4%;
+    height: auto;
 }
 
-.fab.fa-whatsapp {
-    font-size: 70px;
-    color: green;
-}
 
-#carouselExample {
-    width: 75%;
-    margin: auto;
-    height: 60%;
-    padding-top: 90px;
-}
+// #carouselExample {
+//     width: 75%;
+//     margin: auto;
+//     height: 60%;
+//     padding-top: 90px;
+// }
 
 .tarjetas {
     display: flex;
@@ -90,4 +88,18 @@
     background: linear-gradient(to right, #007bff, #98e9fb);
     height: 60px;
     color: #36333b;
+}
+
+// ----Medias Queris------
+@media (max-width: 900px) {
+    .texto-superpuesto {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .texto-superpuesto .boton {
+        padding: 4px 10px;
+    }
 }

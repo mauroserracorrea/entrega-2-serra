@@ -1,9 +1,48 @@
 footer {
-    background-color: #adafa6;
+    display: flex;
+    align-items: center;
+    align-content: start;
+    background-color: #0e043e;
     text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    margin-bottom: 0%;
+    height: 50px;
+    padding: 20px;
+}
+
+.face-icon {
+    position: absolute;
+    right: 100px;
+    height: auto;
+    width: 2%
+}
+
+.insta-icon {
+    position: absolute;
+    right: 40px;
+    width: 2%;
+    height: auto;
+}
+
+.p-footer {
+    display: flex;
+    color: rgb(121, 127, 132);
+}
+
+
+
+
+@media (max-width: 989px) {
+    .face-icon {
+        display: none;
+
+    }
+}
+
+@media (max-width: 989px) {
+    .insta-icon {
+        display: none;
+
+    }
 }

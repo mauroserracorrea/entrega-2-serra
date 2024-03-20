@@ -1,13 +1,9 @@
-.fondo1 {
-    background: linear-gradient(to right, rgb(0, 140, 255), rgb(218, 111, 199))
-}
-
 .multimedia {
     display: flex;
-    width: 95%;
-    height: 900px;
-    padding-top: 250px;
-    padding-left: 95px;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .multimedia img {
@@ -19,8 +15,14 @@
 }
 
 .multimedia img:hover {
-    cursor: crosshair;
-    width: 400px;
+    cursor: grab;
+    width: 450px;
+    height: 600px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+.titulo-GALERIA {
+    padding-top: 80px;
+    margin-left: 700px;
 }

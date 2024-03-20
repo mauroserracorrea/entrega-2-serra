@@ -14,18 +14,43 @@ header h1 a {
   font-size: 18px; }
 
 .navbar-nav .nav-link:hover {
-  background-color: #4df11b;
-  border-radius: 10%;
-  box-shadow: 0 0 10px; }
+  color: white; }
 
 footer {
-  background-color: #adafa6;
+  display: flex;
+  align-items: center;
+  align-content: start;
+  background-color: #0e043e;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
-  margin-bottom: 0%; }
+  height: 50px;
+  padding: 20px; }
+
+.face-icon {
+  position: absolute;
+  right: 100px;
+  height: auto;
+  width: 2%; }
+
+.insta-icon {
+  position: absolute;
+  right: 40px;
+  width: 2%;
+  height: auto; }
+
+.p-footer {
+  display: flex;
+  color: #797f84; }
+
+@media (max-width: 989px) {
+  .face-icon {
+    display: none; } }
+
+@media (max-width: 989px) {
+  .insta-icon {
+    display: none; } }
 
 .titulo {
   padding-top: 80px;
@@ -39,14 +64,11 @@ footer {
   width: 100%;
   height: 100%;
   padding-left: 50px;
-  padding-top: 30px; }
+  padding-top: 40px; }
 
 .titulo {
   padding-top: 80px;
   margin-left: 700px; }
-
-.bodyvideos {
-  background-image: linear-gradient(92deg, #006084 23%, #29cb8b 100%) !important; }
 
 .contenedor {
   position: relative;
@@ -90,21 +112,13 @@ footer {
   width: 150px;
   height: 45px; }
 
-.whatsapp {
+.whatsapp-icono {
   position: fixed;
-  bottom: 40px;
+  bottom: 60px;
   right: 60px;
-  z-index: 100; }
-
-.fab.fa-whatsapp {
-  font-size: 70px;
-  color: green; }
-
-#carouselExample {
-  width: 75%;
-  margin: auto;
-  height: 60%;
-  padding-top: 90px; }
+  z-index: 100;
+  width: 4%;
+  height: auto; }
 
 .tarjetas {
   display: flex;
@@ -127,11 +141,20 @@ footer {
   height: 60px;
   color: #36333b; }
 
+@media (max-width: 900px) {
+  .texto-superpuesto {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 900px) {
+  .texto-superpuesto .boton {
+    padding: 4px 10px; } }
+
 P {
   display: inline-block;
   margin-top: 150px;
   margin-left: 500px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: Arial, Helvetica, sans-serif; }
 
 .section {
   display: grid;
@@ -154,7 +177,7 @@ p {
 .mapa {
   display: flex;
   flex-direction: column;
-  padding-top: 300px;
+  padding-top: 390px;
   padding-left: 50px; }
 
 .aside {
@@ -173,6 +196,44 @@ strong {
 img {
   width: 600px;
   height: 350px; }
+
+.formulario {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+.formulario h2 {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.campo {
+  margin-bottom: 20px; }
+
+.campo label {
+  display: block;
+  margin-bottom: 5px; }
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+button[type="submit"]:hover {
+  background-color: #0056b3; }
 
 @media (max-width: 900px) {
   .section {
@@ -205,7 +266,7 @@ img {
   justify-items: center;
   padding-top: 40px;
   color: #006084;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px; }
 
 .texto {
@@ -218,7 +279,7 @@ img {
   font-size: 20px;
   line-height: 30px;
   left: 287px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: fit-content;
   max-height: max-content; }
 
@@ -255,7 +316,7 @@ img {
   padding-top: 20px;
   margin-top: 40px;
   color: #006084;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px; }
 
 .img-curso-2 {
@@ -267,15 +328,12 @@ img {
   display: block;
   padding-left: 35px; }
 
-.fondo1 {
-  background: linear-gradient(to right, #008cff, #da6fc7); }
-
 .multimedia {
   display: flex;
-  width: 95%;
-  height: 900px;
-  padding-top: 250px;
-  padding-left: 95px; }
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+  margin-bottom: 120px; }
 
 .multimedia img {
   width: 0px;
@@ -285,7 +343,12 @@ img {
   transition: .5 ease; }
 
 .multimedia img:hover {
-  cursor: crosshair;
-  width: 400px;
+  cursor: grab;
+  width: 450px;
+  height: 600px;
   opacity: 1;
   filter: contrast(120%); }
+
+.titulo-GALERIA {
+  padding-top: 80px;
+  margin-left: 700px; }
