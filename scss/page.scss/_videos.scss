@@ -18,3 +18,22 @@
     padding-top: 80px;
     margin-left: 700px;
 }
+
+@media(max-width: 1000px) {
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin: auto
+    }
+}

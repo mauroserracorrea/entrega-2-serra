@@ -48,7 +48,7 @@
     min-height: fit-content;
     max-height: max-content;
     min-width: fit-content;
-    max-width: max-content;
+    max-width: 100%;
     margin-top: 250px;
     margin-left: 10px;
 }
@@ -84,4 +84,26 @@
 .img-grilla {
     display: block;
     padding-left: 35px;
+}
+
+@media(max-width: 1000px) {
+    .aside-curso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .cursofondo {
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .curso {
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
 }

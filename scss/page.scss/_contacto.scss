@@ -113,7 +113,7 @@
 
 
  @media (max-width: 900px) {
-     .section .mapa {
+     .mapa {
          padding-top: 0%;
          padding-left: 100px;
      }
@@ -121,7 +121,18 @@
 
  @media (max-width: 900px) {
      img {
-         padding-top: 0%;
-         padding-left: 100px;
+         width: fit-content;
+         padding: auto;
+     }
+ }
+
+ @media (max-width: 900px) {
+     .formulario {
+         display: flex;
+         flex-direction: column;
+         width: fit-content;
+         justify-content: center;
+         justify-items: center;
+         align-items: center;
      }
  }

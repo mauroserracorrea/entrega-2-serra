@@ -45,6 +45,7 @@
 .logo {
     width: 150px;
     height: 45px;
+
 }
 
 .whatsapp-icono {
@@ -55,14 +56,6 @@
     width: 4%;
     height: auto;
 }
-
-
-// #carouselExample {
-//     width: 75%;
-//     margin: auto;
-//     height: 60%;
-//     padding-top: 90px;
-// }
 
 .tarjetas {
     display: flex;
@@ -90,16 +83,43 @@
     color: #36333b;
 }
 
-// ----Medias Queris------
 @media (max-width: 900px) {
     .texto-superpuesto {
-        display: flex;
-        flex-direction: column;
+        width: fit-content;
+        flex: 1 1 200px;
+        top: 10px;
     }
 }
 
-@media (max-width: 900px) {
-    .texto-superpuesto .boton {
-        padding: 4px 10px;
+@media (max-width: 600px) {
+    .texto-superpuesto {
+        top: 5px;
+    }
+}
+
+
+@media (max-width: 428px) {
+    .texto-superpuesto p {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 428px) {
+    .boton {
+        top: 3px;
+        padding: 3px 6px;
+
+    }
+}
+
+@media (max-width: 378px) {
+    .texto-superpuesto h1 {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 378px) {
+    .texto-superpuesto {
+        top: 12px;
     }
 }
